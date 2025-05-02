@@ -1,0 +1,5 @@
+# Electronic Firefly Jar
+This project came about as a summer project for the month of June 2024. I love fireflies, and June is when they're most commonly seen here in Michigan where I live. I wanted to do a project to emulate them. So I created this: a piece of ridiculously overengineer piece of code to match the behavior of the Common Eastern Firefly as close as possible...well, at least as close as I can.
+
+## How does it work?
+This project makes use of WS2812B addressable LEDs. In particular, I used "fairy light" style LEDs with very thin wires. Controlling these types of LEDs in a way that matches what a firefly looks like is the name of the game here, and doing that in a way that's both independent and random is actually somewhat challenging on the ESP8266. Funny enough, as simple as the final product looks, programming wise, this is actually one of the more complex pieces of code I've written for the ESP8266.
